@@ -9,7 +9,8 @@ const app = express();
 
 //Base URL for the API
 //const base_url ="https://api.example.com";
-const base_url = "http://node58261-env-7269086.proen.app.ruk-com.cloud";
+const base_url ="http://localhost5500"
+//const base_url = "http://node58261-env-7269086.proen.app.ruk-com.cloud";
 
 //Set the template engine
 app.set("views",path.join(__dirname,"/public/views"));
